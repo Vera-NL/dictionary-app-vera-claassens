@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Dictionary from "./Dictionary"
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid">
+      <div className="app-shadow-lg" id="app">
+
+        <i className="fas fa-book fa-2x"> Dictionary</i>
+
+        <h3>Which word would you like to look up?</h3>
+      
+        <main>
+          <Dictionary /> 
+        </main>
+
+        <div className="Footer">
+            <a
+              href="https://github.com/Vera-NL/Dictionary-app-Vera"
+              target="blank"
+              id="open-source-code"
+            >
+            Open-source code 
+            </a> by <a href="https://www.linkedin.com/in/veraclaassens/"
+              target="blank"
+              id="linkedin">Vera Claassens</a>
+        </div>
+
+      </div>
     </div>
   );
 }
-
-export default App;
