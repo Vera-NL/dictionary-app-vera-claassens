@@ -7,7 +7,7 @@ export default function App() {
     <div className="container-fluid">
       <div className="app-shadow-lg" id="app">
 
-        <i className="fas fa-book fa-2x"> Dictionary</i>
+        <h1>Dictionary</h1>
 
         <h3>Which word would you like to look up?</h3>
       

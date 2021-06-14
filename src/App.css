@@ -7,10 +7,6 @@
   text-align: center;
 }
 
-.fas {
-  color:rgb(87, 148, 26);
-}
-
 .Footer {
   margin-top: 15px;
 }
@@ -21,3 +17,10 @@
     text-decoration: none;
   }
 
+  h1 {
+    color: darkblue;
+  }
+
+  h3 {
+    color: rgb(26, 148, 36);
+  }

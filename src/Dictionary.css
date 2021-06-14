@@ -1,6 +1,13 @@
+li {
+    list-style: none;
+}
+
 .Dictionary {
     color: darkblue;
-    font-weight: bold;
-    margin-top: 10px;
-    text-align: center;
 }
+
+#input-group {
+    display: block;
+    margin: 0 auto;
+}
+

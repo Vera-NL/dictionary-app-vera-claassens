@@ -8,6 +8,7 @@ export default function Dictionary () {
     let [results, setResults] = useState(null);
 
     function handleResponse (response) {
+        console.log(response);
         setResults(response.data[0]);
     }
 
@@ -25,8 +26,8 @@ export default function Dictionary () {
 
     return (
         <div className="Dictionary">
-            <form className="search" onSubmit={search}>
-                <div className="input-group">
+            <form className="Search" onSubmit={search}>
+                <div className="input-group" id="input-group">
                     <input type="search" placeholder="Type a word" onChange={handleKeywordChange} />
                     <button className="btn btn-outline-secondary"               
                             type="submit"
