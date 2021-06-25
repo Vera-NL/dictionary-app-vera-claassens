@@ -12,7 +12,7 @@ export default function App() {
         <h3>Which word would you like to look up?</h3>
       
         <main>
-          <Dictionary /> 
+          <Dictionary defaultKeyword="bicycle" /> 
         </main>
 
         <div className="Footer">

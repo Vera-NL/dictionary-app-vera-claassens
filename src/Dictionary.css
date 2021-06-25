@@ -6,8 +6,24 @@ li {
     color: darkblue;
 }
 
+.Dictionary section {
+    background-color: #edf1ed;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 10px;
+}
+
 #input-group {
+    border-color: darkblue;
+    border-width: 5px;
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.Hint {
+    margin-top: 10px;
 }
 
