@@ -39,7 +39,10 @@ export default function Dictionary (props) {
                 <section>
                     <form className="Search" onSubmit={handleSubmit}>
                         <div className="input-group" id="input-group">
-                            <input type="search" placeholder="Type a word" onChange={handleKeywordChange} />
+                            <input type="search"    
+                                placeholder="Type a word" 
+                                onChange={handleKeywordChange}
+                                defaultValue={props.defaultKeyword} />
                             <button className="btn btn-outline-secondary"               
                                     type="submit"
                                     value="search"
@@ -48,7 +51,7 @@ export default function Dictionary (props) {
                             </button>
                         </div>
                         <div className="Hint">
-                            Suggested words are: flower, smile, vacation...
+                            <strong>Suggested words are:</strong> flower, smile, vacation...
                         </div>
                     </form>
                 </section>
