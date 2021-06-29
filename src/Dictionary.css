@@ -15,13 +15,16 @@ li {
 }
 
 #input-group {
-    border-color: darkblue;
-    border-width: 5px;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
-    width: 100%;
 }
+
+#input-group button {
+    border-color: rgb(26, 148, 36);
+    color: rgb(26, 148, 36);
+}
+
 
 .Hint {
     margin-top: 10px;

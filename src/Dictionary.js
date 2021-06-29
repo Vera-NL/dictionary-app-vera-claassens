@@ -60,10 +60,10 @@ export default function Dictionary (props) {
                                 <i className="fas fa-search"></i>         
                             </button>
                         </div>
+                    </form>
                         <div className="Hint">
                             <strong>Suggested words are:</strong> flower, smile, vacation...
                         </div>
-                    </form>
                 </section>
                 <Results results={results} />
                 <Photos photos={photos} />
